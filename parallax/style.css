@@ -1,0 +1,99 @@
+@font-face {
+  src: url(fonts/Italianno/Italianno-Regular.ttf);
+  font-family: italianno;
+}
+*, *::before, * ::after {
+  box-sizing: inherit;
+}
+html, body {
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Gill Sans', sans-serif;
+  letter-spacing: 0.5px;
+  background-image: url(images/road.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+/*Page Layout*/
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*Sections Top and Bottom*/
+.parallax-top-bottom {
+  flex-basis: 100vh;
+  display: flex;
+  align-items: center;
+}
+.parallax-content {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: italianno;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 70px;
+  letter-spacing: 8px;
+  font-variant: small-caps;
+}
+/*Section Middle*/
+.middle {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.padding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.padding p {
+  max-width: 800px;
+}
+.yellow {
+  background-color: rgb(255, 220, 116);
+  color: #666;
+}
+.black {
+  background-color: #282e34;
+  color: #ddd;
+}
+.purple {
+  background-color: rgb(190, 169, 195);
+  color: black;
+}
+.casino {
+  background-image: url(images/casino2.jpg);
+}
+.tractor {
+  background-image: url(images/tractor.jpg);
+}
+h2 {
+  font-size: 40px;
+  font-family: italianno;
+}
+.middle-img-text {
+  font-family: italianno;
+  color: white;
+  font-size: 50px;
+  letter-spacing: 8px;
+  font-variant: small-caps;
+}
+.middle-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
